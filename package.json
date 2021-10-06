@@ -4,7 +4,9 @@
   "description": "A MERN-typescript webapplication",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=production node ./dist/bundle.js",
+    "development": "nodemon",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -29,7 +31,9 @@
     "nodemon": "^2.0.13",
     "ts-loader": "^9.2.6",
     "ts-node": "^10.2.1",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.3",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.8.0"
   },
   "dependencies": {
     "express": "^4.17.1"
