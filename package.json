@@ -1,0 +1,37 @@
+{
+  "name": "mern-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "A MERN-typescript webapplication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirsahib/mern-typescript-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "mongodb",
+    "node",
+    "typescript"
+  ],
+  "author": "MIR SAHIB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mirsahib/mern-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mirsahib/mern-typescript-boilerplate#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.10.3",
+    "nodemon": "^2.0.13",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
