@@ -1,0 +1,6 @@
+{
+    "watch": ["./server"],
+    "ext": ".ts,.js",
+    "ignore": [],
+    "exec": "webpack --mode=development --config webpack.config.server.js && node ./dist/bundle.js"
+  }
