@@ -22,3 +22,5 @@ npm run development <=== run the development server
 [Learn Webpack - Full Tutorial for Beginners](https://www.youtube.com/watch?v=MpGLUVbqoYQ&t=3157s&ab_channel=freeCodeCamp.org)
 [Webpack typescript guide](https://webpack.js.org/guides/typescript/)
 [Why use babel-loader with ts-loader?](https://stackoverflow.com/questions/49624202/why-use-babel-loader-with-ts-loader)
+[Using Typescript with react tutorial]
+(https://blog.logrocket.com/using-typescript-with-react-tutorial-examples/)
