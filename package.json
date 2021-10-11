@@ -2,11 +2,11 @@
   "name": "mern-typescript-boilerplate",
   "version": "2.0.0",
   "description": "A MERN-typescript webapplication",
-  "main": "index.js",
+  "main": "./server/server.ts",
   "scripts": {
     "start": "NODE_ENV=production node ./dist/bundle.js",
     "development": "nodemon",
-    "build": "webpack"
+    "build": "webpack --mode=production --config webpack.config.server.js"
   },
   "repository": {
     "type": "git",
@@ -32,8 +32,9 @@
     "ts-loader": "^9.2.6",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3",
-    "webpack": "^5.57.1",
-    "webpack-cli": "^4.8.0"
+    "webpack": "^5.56.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
     "express": "^4.17.1",
