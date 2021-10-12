@@ -1,6 +1,6 @@
 {
   "name": "mern-typescript-boilerplate",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A MERN-typescript webapplication",
   "main": "./server/server.ts",
   "scripts": {
